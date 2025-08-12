@@ -8,7 +8,7 @@ However, as a learning exercise, this project was of great use. It taught me how
 
 I hope you enjoy (and if you are so willing, contribute to making this project better -- so I can also learn more!).
 
-[Example Image](example.png)
+![Example Image](example.png)
 
 ## Table of Contents
 - [Overview](#overview)
