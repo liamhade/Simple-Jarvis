@@ -29,11 +29,9 @@ I hope you enjoy (and if you are so willing, contribute to making this project b
    From the project root, create and activate a virtual environment (example using `venv`):
 
    ```bash
-   python -m venv venv
+   python -m venv .venv
    # On Windows:
-   venv\Scripts\activate
-   # On macOS/Linux:
-   source venv/bin/activate
+   .venv\Scripts\activate
    ```
 
 3. **Install dependencies**
@@ -49,9 +47,14 @@ I hope you enjoy (and if you are so willing, contribute to making this project b
    * Create a new key or copy an existing one.
 
 5. **Configure your API key**
-   Open `jarvisbackend/jarvisbackend/chat_api.py` and paste your API key in the appropriate variable or configuration section.
+
+   Create a `.env` file inside of `jarvisbackend/jarvisbackend` and paste the following line:
+   ```
+   API_KEY=<your-api-key>
+   ```
 
 6. **Run the application**
+
    Start the backend by running:
 
    ```bash
